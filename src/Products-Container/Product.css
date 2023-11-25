@@ -1,0 +1,378 @@
+.product-container{
+    background:transparent;
+    height:50vh;
+    width:70vw;
+    border:1px solid;
+    border-width:0px;
+    border-color:grey;
+
+}
+.Add-item-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-container{
+    background:#fff;
+    height:32px;
+    width:245px;
+    box-shadow:0px 1px 2px black;
+    display:flex;
+    flex-direction:row;
+    border-radius: 30px;
+}
+
+.input{
+    background:transparent;
+    height:32px;
+    width:245px;
+    border-radius:96px;
+    border:none;
+    border-color:none;
+}
+.search-icon{
+    padding-top:10px;
+    padding-right:16px;
+}
+.Add-button{
+    background-color:transparent;
+    border-color:green;
+    border-width:1px;
+    height:40px;
+    width:85px;
+    border-radius:15px;
+    font-size:8px;
+    color:green;
+}
+
+.print{
+    margin-top:13px;
+    margin-left:30px;
+    color:green;
+   
+}
+.Adding-items-container{
+    margin-left:37rem;
+}
+.product-category-container{
+    background:#fff;
+    border-width:0px;
+    height:5vh;
+    width:100vw;
+    border: 1px solid;
+    margin-top:8px;
+
+}
+
+.product-name-heading{
+    color:grey;
+    font-size:10px;
+    font-family: "Roboto";
+    font-size: small;
+    font-weight:bold;
+    padding-top:9px;
+    padding-bottom:17px;
+    
+}
+
+.product-name-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;   
+    margin:10px;
+    padding-right:18px;
+}
+.td{
+    padding-left:18px;
+    color:grey;
+    font-size:6px;
+    font-family: "Roboto";
+    font-size: small;
+}
+
+.Apple{
+    height:32px;
+    width:42px;
+    margin-right:10px;
+}
+.check{
+   font-size:7px;
+    margin:10px;
+    cursor: pointer;
+}
+
+.icons > svg {
+    width: 10px; 
+    height: 10px;
+    margin-right:10px;
+    margin-top:10px; 
+  }
+   
+ 
+.icons {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding:18px;
+    background:grey;
+    opacity: 0.5px;
+  }
+  
+.img-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Approved-status{
+    font-family: "Roboto";
+    color:green;
+    font-weight:bold;
+}
+.Approved{
+    padding:10px;
+}
+.cross-icon{
+    position:relative;
+    left:24rem;
+    top:0px;
+   
+}
+.cross-icon:hover{
+    color:red;
+    cursor:pointer;
+}
+.onClickcross-card-container {
+    position:absolute;
+    background-color:#fff;
+    width:400px;
+    height:180px;
+    box-shadow: 1px 2px 5px black;
+    transform: translate(-50% ,-50%) scale(0.1);
+    transition: transform 0.4s, right 0.4s;
+    top:0;
+    left:100%;
+    visibility: hidden;
+}
+
+.product-issue{
+    color:black;
+    font-size:19px;
+    font-family:"Roboto";
+    text-align: start;
+    margin:10px;
+}
+.urgent{
+    color:grey;
+    font-size:17px;
+    margin:17px;
+}
+.missing-product{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+
+}
+.No{
+    font-family: "Roboto";
+    color:black;
+    font-weight:bold;
+    font-size:15px;
+    margin:15px;
+    cursor: pointer;
+}
+
+.missing-product{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin:15px;
+}
+
+.Yes{
+    color:black;
+    cursor: pointer;
+    font-size:15px;
+    font-weight:bold;
+   
+}
+.showPopup{
+    top:80%;
+    transform: translate(-50%,-50%) scale(1);
+    visibility: visible;
+
+}
+.apples{
+    height:30vh;
+    width:20vw;
+}
+
+.cross-mark{
+    position:relative;
+    left:77rem;
+    top:0px;
+    cursor: pointer;
+    color:red;
+}
+
+.croos-mark:hover{
+    color:red;
+    cursor:pointer;
+}
+.chicken-breast{
+    color:black;
+    font-size:22px;
+    font-family:"Roboto";
+    margin:10px;
+    font-weight:bolder;
+}
+
+.Edit-Container{
+    position: absolute;
+    background:#fff;
+    width:90vw;
+    border-radius:15px;
+    box-shadow:1px 2px 6px black;
+    height:90vh;
+    top:0;
+    transform: translate( -200%,-200%) scale(0.1);
+}
+
+.updatating-container{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.price-quanity-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.price{
+    margin:40px;
+    background:#fff;
+    border:solid 1px;
+    height:25px;
+    width:98px;
+    border-radius:10px;
+    text-align:center;
+}
+.pricess{
+    margin-right:10rem;
+}
+.quanity-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.decrement-button{
+    background:greenyellow;
+    height:20px;
+    width:20px;
+    border-radius:10px;
+    border:1px solid;
+    margin:30px;
+}
+.lb{
+    color:grey;
+    font-size:19px;
+    font-family: "Roboto";
+}
+.total-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.total{
+margin:30px;
+}
+
+.optional-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.optional{
+    color:grey;
+    opacity: 2;
+}
+
+.choose-reason-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.select-reason-container{
+    margin:13px;
+    background:#fff;
+    border:solid 1px grey;
+    height:25px;
+    width:15vw;
+    border-radius:10px;
+    text-align:center;
+}
+.other{
+    margin:13px;
+    background:#fff;
+    border:solid 1px grey;
+    height:28px;
+    width:85px;
+    border-radius:10px;
+    text-align:center;
+}
+.cancel-or-send-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin:15px;
+}
+.cancel{
+    background:#fff;
+    border:solid 0px;
+    color:green;
+    height:34px;
+    width:79px;
+}
+.send{
+    background:green;
+    border:solid 0px;
+    color:#fff;
+    height:34px;
+    width:79px;
+    border-radius:10px;
+}
+.choose-reason{
+    color:black;
+    font-family: "Roboto";
+    font-size:17px;
+    font-weight:bolder;
+    margin:11px;
+}
+
+.EditPopup{
+    top:50%;
+    transform: translate(3%,25%) scale(1);
+    visibility: visible;
+}

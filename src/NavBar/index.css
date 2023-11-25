@@ -1,0 +1,57 @@
+.navbar-container{
+    background-color:#026b3e;
+    height:6vh;
+    width:77vw;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: center;
+    margin:18px;
+}
+
+.logo-name{
+    color:#fff;
+    font-size:17px;
+    font-family: 'Trebuchet MS';
+    margin:11px;
+}
+.store{
+    font-size:14px;
+    color:#fff;
+    margin:11px;
+}
+
+.cart-img{
+    height:27px;
+    width:27px;
+}
+.ac-holder{
+    color:#fff;
+    font-weight: bolder;
+}
+.cart-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   margin:20px;
+     
+}
+.Cart{
+    color:#fff;
+    font-size:18px;
+    font-weight:bolder;
+}
+.count-cart{
+    color:#fff;
+    padding-bottom:30px;
+    font-size: 12px;
+    font-weight:bolder;
+}

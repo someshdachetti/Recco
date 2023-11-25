@@ -1,0 +1,40 @@
+.status-of-order-container{
+    background: transparent;
+   border-width:0px;
+    border:solid;
+    height:15vh;
+    width:75vw;
+    border:1px solid ;
+    
+    border-color:grey;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin:14px;
+    border-radius:20px;
+}
+.status-heading{
+    color:grey;
+    font-size:10px;
+    font-family: "Roboto";
+    font-size: small;
+    font-weight:bold;
+    margin: 10px;
+}
+
+.status{
+    color:black;
+    font-size:14px;
+    font-family: "Roboto";
+    font-weight:bolder;
+    margin:10px;
+}
+.line{
+    color:maroon;
+    height:80px;
+}
+.icon{
+    margin:9px;
+    margin-top:0px;
+}
