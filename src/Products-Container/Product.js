@@ -135,7 +135,7 @@ const Products = () => {
             <div className='icons'>
                 <FontAwesomeIcon className='check' icon={faCheck} onClick = {() => onClickCheck(3)}/>
                 <FontAwesomeIcon className='check' icon={faXmark} onClick ={onClickCross}/>
-                <p className='check'>Edit</p>
+                <p className='check' onClick={onClickEdit}>Edit</p>
             </div>
         </tr>
 
@@ -152,7 +152,7 @@ const Products = () => {
             <div className='icons'>
                 <FontAwesomeIcon className='check' icon={faCheck} onClick = {() => onClickCheck(4)} />
                 <FontAwesomeIcon className='check' icon={faXmark} onClick ={onClickCross}/>
-                <p className='check'>Edit</p>
+                <p className='check' onClick={onClickEdit}>Edit</p>
             </div>
         </tr>
 
@@ -171,7 +171,7 @@ const Products = () => {
             <div className='icons'>
                 <FontAwesomeIcon className='check' icon={faCheck} onClick = {() => onClickCheck(6)}/>
                 <FontAwesomeIcon className='check' icon={faXmark} onClick ={onClickCross}/>
-                <p className='check'>Edit</p>
+                <p className='check' onClick={onClickEdit}>Edit</p>
             </div>
         </tr>
 
@@ -188,7 +188,7 @@ const Products = () => {
             <div className='icons'>
                 <FontAwesomeIcon className='check' icon={faCheck} onClick={()=> onClickCheck(7)}/>
                 <FontAwesomeIcon className='check' icon={faXmark} onClick ={onClickCross}/>
-                <p className='check'>Edit</p>
+                <p className='check' onClick={onClickEdit}>Edit</p>
             </div>
         </tr>
 
@@ -206,7 +206,7 @@ const Products = () => {
             <div className='icons'>
                 <FontAwesomeIcon className='check' icon={faCheck} onClick={() => onClickCheck(8)}/>
                 <FontAwesomeIcon className='check' icon={faXmark} onClick ={onClickCross}/>
-                <p className='check'>Edit</p>
+                <p className='check' onClick={onClickEdit}>Edit</p>
             </div>
         </tr>
 
@@ -223,7 +223,7 @@ const Products = () => {
             <div className='icons'>
                 <FontAwesomeIcon className='check' icon={faCheck} onClick={() => onClickCheck(9)}/>
                 <FontAwesomeIcon className='check' icon={faXmark} onClick ={onClickCross}/>
-                <p className='check'>Edit</p>
+                <p className='check' onClick={onClickEdit}>Edit</p>
             </div>
         </tr>
 
@@ -240,7 +240,7 @@ const Products = () => {
             <div className='icons'>
                 <FontAwesomeIcon className='check' icon={faCheck} onClick={() => onClickCheck(10)}/>
                 <FontAwesomeIcon className='check' icon={faXmark} onClick ={onClickCross}/>
-                <p className='check'>Edit</p>
+                <p className='check' onClick={onClickEdit}>Edit</p>
             </div>
         </tr>
         </table>
